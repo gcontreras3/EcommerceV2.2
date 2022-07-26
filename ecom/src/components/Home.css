@@ -1,0 +1,65 @@
+body{
+    /* background: black; */
+}
+.title{
+    color: white;
+    background-color: #d74e20;
+    background-image: linear-gradient(black, #d74e20);
+    height: 230vh;
+}
+.new-arr{
+  height: 150px;
+  padding: 5rem;
+}
+.logo{
+    /* margin-left: 15px;
+    margin-right: -10px; */
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+  .vcimg{
+    width: 100%;
+  }
+  
+  .btn-men{
+    width: 175px;
+    margin-right: 0.6rem;
+    color: #282828;
+    border: 1px solid #777070;
+    box-sizing: border-box;
+    padding: 1.1rem 1.6rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    transition: linear .2s;
+    display: inline-block;
+  }
+  .btn-wmen{
+    width: 175px;
+    margin-left: 0.6rem;
+    color: #282828;
+    border: 1px solid #777070;
+    box-sizing: border-box;
+    padding: 1.1rem 1.6rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    transition: linear .2s;
+    display: inline-block;
+  }
+  .btn-men:hover{
+    background-color: #d74e20;
+    text-decoration: none;
+  }
+  .btn-wmen:hover{
+    background-color: #d74e20;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 767px){
+    .btn-men{
+        margin: .8rem .8rem 0 0;
+    }
+    .btn-wmen{
+        margin: .8rem .8rem 0 0;
+    }
+  }
