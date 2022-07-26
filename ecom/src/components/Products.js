@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Products.css'
-
 import Axios from 'axios';
 
 // class Products extends React.Component {
