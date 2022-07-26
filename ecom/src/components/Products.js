@@ -2,39 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Products.css'
 import Axios from 'axios';
 
-// class Products extends React.Component {
-//   constructor(props){
-//     super(props);
-//     this.state = {
-//       products: [],
-//     };
-//   }
-//   componentDidMount(){
-//     axios
-//       .get("http://localhost:3000/products")
-//       .then((response) => this.setState({ products: response.data }));
-//   }
-//   render() {
-//     return(
-//       <div>
-//         <div>
-//           <main>
-//             {this.state.products.map((products, index) => (
-//               <div>
-//                 <h4>{products.title} </h4>
-//                 <p>{products.price}</p>
-//                 <p>{ products.item_description}</p>
-//                 <button>Add to Cart</button>{" "}
-//               </div>
-//             ))}
-//           </main>
-//         </div>
-//       </div>
-//     )
-//   }
-// }
-
-
 function Products() {
 
   // first attempt at route and State
@@ -53,13 +20,7 @@ function Products() {
     });
   }, []);
 
-  // function filter(){
-  //   const [filter, setFilter] = useState()
-  //   filter.sort(() => {
-  //      return a - b
-  //   })
-    
-  // }
+ 
 
 
   
@@ -80,15 +41,6 @@ function Products() {
               </>
             );
           })}
-    
-        {/* <div className="container">
-            <h3>Product</h3>
-            <p>Description</p>
-            <p>Price</p>
-            <div className="products-btn">
-            <button onClick={getProducts}>Show Products</button>
-            </div>
-        </div> */}
     </>
   )
 }
