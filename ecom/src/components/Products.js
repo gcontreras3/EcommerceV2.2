@@ -22,6 +22,7 @@ function Products() {
 
   return (
     <>
+    <div className="pro-container-shop">
     {testingList.map((val) => {
            return (
               <>
@@ -37,6 +38,7 @@ function Products() {
               </>
             );
           })}
+    </div>
     </>
   )
 }
