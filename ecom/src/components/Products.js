@@ -15,15 +15,11 @@ function Products() {
   // }
   const [testingList, setTestList] = useState([]);
   useEffect(() => {
-    Axios.get("https://ecomv.herokuapp.com/products").then((response) => {
+    Axios.get("https://test-backend23.herokuapp.com/products").then((response) => {
       setTestList(response.data);
     });
   }, []);
 
- 
-
-
-  
   return (
     <>
     {testingList.map((val) => {
