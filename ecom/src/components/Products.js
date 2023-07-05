@@ -15,7 +15,7 @@ function Products() {
   // }
   const [testingList, setTestList] = useState([]);
   useEffect(() => {
-    Axios.get("https://ecommerce-v2-2.vercel.app/Products").then((response) => {
+    Axios.get("https://server-ecom.vercel.app/Products").then((response) => {
       setTestList(response.data);
     });
   }, []);
