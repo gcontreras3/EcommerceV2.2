@@ -9,7 +9,7 @@ export default function Home() {
     <div className="title">
       <div className="new-arr">
         <h2>NEW ARRIVALS</h2>
-        <p>Choose like a pro from our first new spring 2022 arrivals.</p>
+        <p>Choose like a pro from our first new spring 2023 arrivals.</p>
         <button className="btn-men">Shop Men's</button>
         <button className="btn-wmen">Shop Women's</button>
       </div>
